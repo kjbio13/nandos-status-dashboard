@@ -7,10 +7,9 @@ const ItemCard = ({ props }) => {
 
 
     useEffect(() => {
-        let site = props.url
         axios
-            // .get(`${props.url}`)
-            .get(` https://cors-anywhere.herokuapp.com/google.com`)
+            .get(`${props.url}`)
+            // .get(` https://cors-anywhere.herokuapp.com/google.com`)
 
             .then(res => { 
                 let status = {status: res.status, statusText: res.statusText}
@@ -27,7 +26,7 @@ const ItemCard = ({ props }) => {
             {props.imageUrl}<br/>
             {props.subtext_1}<br/><br/><br/>
             {status.status}<br/>
-            {status.statusText}<br/>
+            {status.statusText}<br/>Does this change?<br/>
             {/* {console.log(props.id)}<br/> */}
         </>
     )
