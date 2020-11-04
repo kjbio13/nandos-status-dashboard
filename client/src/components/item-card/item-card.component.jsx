@@ -14,7 +14,7 @@ const ItemCard = ({ props }) => {
 
             .then(res => { 
                 let status = {status: res.status, statusText: res.statusText}
-                // setStatus(status)
+                setStatus(status)
                 console.log(status)
              })
     })
