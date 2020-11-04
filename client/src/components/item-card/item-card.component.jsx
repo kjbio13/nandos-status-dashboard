@@ -9,8 +9,8 @@ const ItemCard = ({ props }) => {
     useEffect(() => {
         let site = props.url
         axios
-            .get(`${props.url}`)
-            // .get(` https://cors-anywhere.herokuapp.com/google.com`)
+            // .get(`${props.url}`)
+            .get(` https://cors-anywhere.herokuapp.com/google.com`)
 
             .then(res => { 
                 let status = {status: res.status, statusText: res.statusText}
