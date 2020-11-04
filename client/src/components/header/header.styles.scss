@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  background-color: green;
+  div {
+    margin: 25px;
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+}

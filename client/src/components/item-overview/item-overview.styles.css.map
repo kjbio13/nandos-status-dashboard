@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "item-overview.styles.scss"
+    ],
+    "names": [],
+    "file": "item-overview.styles.css"
+}
