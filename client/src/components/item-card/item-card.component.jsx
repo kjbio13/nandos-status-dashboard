@@ -27,7 +27,7 @@ const ItemCard = ({ props }) => {
             {props.imageUrl}<br/>
             {props.subtext_1}<br/><br/><br/>
             {status.status}<br/>
-            {status.statusText}<br/>
+            {status.statusText}<br/><br/><br/>
             {/* {console.log(props.id)}<br/> */}
         </>
     )
